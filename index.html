@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        scene {
+            width: 198vmin;
+            height: 98vmin;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <title>クイズ得点表示</title>
+    <link rel="stylesheet" href="style.css">
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="yellow"></div>
+    <div id="green"></div>
+    <input type="button" id="reda" value="正解" onclick="ra()">
+    <input type="button" id="redb" value="不正解" onclick="rb()">
+    <input type="button" id="bluea" value="正解" onclick="ba()">
+    <input type="button" id="blueb" value="不正解" onclick="bb()">
+    <input type="button" id="yellowa" value="正解" onclick="ya()">
+    <input type="button" id="yellowb" value="不正解" onclick="yb()">
+    <input type="button" id="greena" value="正解" onclick="ga()">
+    <input type="button" id="greenb" value="不正解" onclick="gb()">
+    <script src="main.js"></script>
+</body>
+</html>

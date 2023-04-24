@@ -1,0 +1,104 @@
+#red {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    font-size: 9vh;
+    border: outset 8px #f33;
+    left: 2%;
+    top: 2%;
+}
+#blue {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    font-size: 9vh;
+    border: outset 8px rgb(51, 82, 255);
+    right: 2%;
+    top: 2%;
+}
+#yellow {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    font-size: 9vh;
+    border: outset 8px rgb(245, 255, 51);
+    left: 2%;
+    bottom: 15%;
+}
+#green {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    font-size: 9vh;
+    border: outset 8px rgb(4, 169, 20);
+    right: 2%;
+    bottom: 15%;
+}
+#reda {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 36%;
+}
+#redb {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    left: 420px;
+    top: 36%;
+}
+#bluea {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    right: 420px;
+    top: 36%;
+}
+#blueb {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    right: 30px;
+    top: 36%;
+}
+#yellowa {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    bottom: 1%;
+}
+#yellowb {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    left: 420px;
+    bottom: 1%;
+}
+#greena {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    right: 420px;
+    bottom: 1%;
+}
+#greenb {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    right: 30px;
+    bottom: 1%;
+}
